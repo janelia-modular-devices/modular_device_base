@@ -48,15 +48,15 @@ $EndDescr
 $Comp
 L TEENSY_3_2 TEENSY1
 U 1 1 5751BC55
-P 3250 2750
-F 0 "TEENSY1" H 3250 3747 60  0000 C CNN
-F 1 "TEENSY_3_2" H 3250 3641 60  0000 C CNN
-F 2 "modular_device_teensy:TEENSY_3" H 3250 3800 60  0001 C CNN
-F 3 "" H 3300 5500 60  0000 C CNN
-F 4 "digikey" H 3250 3900 60  0001 C CNN "Vendor"
-F 5 "1568-1231-ND" H 3250 4000 60  0001 C CNN "PartNumber"
-F 6 "DEV TEENSY 3.2 13736" H 3250 4100 60  0001 C CNN "Description"
-	1    3250 2750
+P 3550 2750
+F 0 "TEENSY1" H 3550 3747 60  0000 C CNN
+F 1 "TEENSY_3_2" H 3550 3641 60  0000 C CNN
+F 2 "modular_device_teensy:TEENSY_3" H 3550 3800 60  0001 C CNN
+F 3 "" H 3600 5500 60  0000 C CNN
+F 4 "digikey" H 3550 3900 60  0001 C CNN "Vendor"
+F 5 "1568-1231-ND" H 3550 4000 60  0001 C CNN "PartNumber"
+F 6 "DEV TEENSY 3.2 13736" H 3550 4100 60  0001 C CNN "Description"
+	1    3550 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -252,17 +252,13 @@ Wire Wire Line
 	2300 2900 1950 2900
 Wire Wire Line
 	2300 3000 1950 3000
-Wire Wire Line
-	2300 3100 1950 3100
-Wire Wire Line
-	2300 3200 1950 3200
 Text Label 1950 2900 0    60   ~ 0
 RX3
 Text Label 1950 3000 0    60   ~ 0
 TX3
-Text Label 1950 3100 0    60   ~ 0
+Text Label 1950 4000 0    60   ~ 0
 RX2
-Text Label 1950 3200 0    60   ~ 0
+Text Label 5000 4000 0    60   ~ 0
 TX2
 $Comp
 L HEADER_01X03_SMD_RA P3
@@ -317,18 +313,6 @@ RX3
 Text Label 2550 6100 0    60   ~ 0
 GND
 Connection ~ 2650 7150
-Wire Wire Line
-	2300 3300 1950 3300
-Text Label 1950 3300 0    60   ~ 0
-MOSI
-Wire Wire Line
-	2300 3400 1950 3400
-Text Label 1950 3400 0    60   ~ 0
-MISO
-Wire Wire Line
-	4200 3400 4400 3400
-Text Label 4400 3400 0    60   ~ 0
-SCK
 $Comp
 L BNC_DOUBLE_RA P5
 U 1 1 5751FB89
@@ -369,12 +353,12 @@ Text Label 4900 7350 0    60   ~ 0
 BNC_A
 Text Label 4900 7450 0    60   ~ 0
 BNC_B
-Text Label 4350 1800 0    60   ~ 0
+Text Label 4950 1800 0    60   ~ 0
 V_USB
 Wire Wire Line
-	4350 2050 4350 2100
+	4950 2050 4950 2100
 Wire Wire Line
-	4200 2100 4900 2100
+	4800 2100 5500 2100
 $Comp
 L +5V #PWR08
 U 1 1 57520478
@@ -388,58 +372,58 @@ F 3 "" H 3850 7100 50  0000 C CNN
 $EndComp
 Connection ~ 3850 7150
 Wire Wire Line
-	4700 2100 4700 2050
-Connection ~ 4350 2100
+	5300 2100 5300 2050
+Connection ~ 4950 2100
 $Comp
 L +5V #PWR09
 U 1 1 57520888
-P 4700 1800
-F 0 "#PWR09" H 4700 1650 50  0001 C CNN
-F 1 "+5V" H 4715 1973 50  0000 C CNN
-F 2 "" H 4700 1800 50  0000 C CNN
-F 3 "" H 4700 1800 50  0000 C CNN
-	1    4700 1800
+P 5300 1800
+F 0 "#PWR09" H 5300 1650 50  0001 C CNN
+F 1 "+5V" H 5315 1973 50  0000 C CNN
+F 2 "" H 5300 1800 50  0000 C CNN
+F 3 "" H 5300 1800 50  0000 C CNN
+	1    5300 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 1800 4700 1850
+	5300 1800 5300 1850
 Wire Wire Line
-	4350 1850 4350 1800
+	4950 1850 4950 1800
 Wire Wire Line
-	4350 1800 4250 1800
+	4950 1800 4850 1800
 Wire Wire Line
-	4250 1800 4250 2000
+	4850 1800 4850 2000
 Wire Wire Line
-	4250 2000 4200 2000
+	4850 2000 4800 2000
 Wire Wire Line
-	4900 2100 4900 1800
-Connection ~ 4700 2100
+	5500 2100 5500 1800
+Connection ~ 5300 2100
 $Comp
 L diode_schottky_15V_1A D1
 U 1 1 5764103B
-P 4350 1950
-F 0 "D1" V 4350 1882 50  0000 R CNN
-F 1 "diode_schottky_15V_1A" H 4070 1870 50  0001 L CNN
-F 2 "modular_device_teensy:DO-214BA" H 4200 1930 60  0001 C CNN
-F 3 "" H 4300 2030 60  0001 C CNN
-F 4 "digikey" H 4400 2130 60  0001 C CNN "Vendor"
-F 5 "LSM115JE3/TR13CT-ND" H 4500 2230 60  0001 C CNN "PartNumber"
-F 6 "DIODE SCHOTTKY 15V 1A DO214BA" H 4600 2330 60  0001 C CNN "Description"
-	1    4350 1950
+P 4950 1950
+F 0 "D1" V 4950 1882 50  0000 R CNN
+F 1 "diode_schottky_15V_1A" H 4670 1870 50  0001 L CNN
+F 2 "modular_device_teensy:DO-214BA" H 4800 1930 60  0001 C CNN
+F 3 "" H 4900 2030 60  0001 C CNN
+F 4 "digikey" H 5000 2130 60  0001 C CNN "Vendor"
+F 5 "LSM115JE3/TR13CT-ND" H 5100 2230 60  0001 C CNN "PartNumber"
+F 6 "DIODE SCHOTTKY 15V 1A DO214BA" H 5200 2330 60  0001 C CNN "Description"
+	1    4950 1950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L diode_schottky_15V_1A D2
 U 1 1 57640DFA
-P 4700 1950
-F 0 "D2" V 4700 1882 50  0000 R CNN
-F 1 "diode_schottky_15V_1A" H 4420 1870 50  0001 L CNN
-F 2 "modular_device_teensy:DO-214BA" H 4550 1930 60  0001 C CNN
-F 3 "" H 4650 2030 60  0001 C CNN
-F 4 "digikey" H 4750 2130 60  0001 C CNN "Vendor"
-F 5 "LSM115JE3/TR13CT-ND" H 4850 2230 60  0001 C CNN "PartNumber"
-F 6 "DIODE SCHOTTKY 15V 1A DO214BA" H 4950 2330 60  0001 C CNN "Description"
-	1    4700 1950
+P 5300 1950
+F 0 "D2" V 5300 1882 50  0000 R CNN
+F 1 "diode_schottky_15V_1A" H 5020 1870 50  0001 L CNN
+F 2 "modular_device_teensy:DO-214BA" H 5150 1930 60  0001 C CNN
+F 3 "" H 5250 2030 60  0001 C CNN
+F 4 "digikey" H 5350 2130 60  0001 C CNN "Vendor"
+F 5 "LSM115JE3/TR13CT-ND" H 5450 2230 60  0001 C CNN "PartNumber"
+F 6 "DIODE SCHOTTKY 15V 1A DO214BA" H 5550 2330 60  0001 C CNN "Description"
+	1    5300 1950
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -624,12 +608,12 @@ Wire Wire Line
 $Comp
 L VEE #PWR018
 U 1 1 57683180
-P 4900 1800
-F 0 "#PWR018" H 4900 1650 50  0001 C CNN
-F 1 "VEE" H 4917 1973 50  0000 C CNN
-F 2 "" H 4900 1800 50  0000 C CNN
-F 3 "" H 4900 1800 50  0000 C CNN
-	1    4900 1800
+P 5500 1800
+F 0 "#PWR018" H 5500 1650 50  0001 C CNN
+F 1 "VEE" H 5517 1973 50  0000 C CNN
+F 2 "" H 5500 1800 50  0000 C CNN
+F 3 "" H 5500 1800 50  0000 C CNN
+	1    5500 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -669,4 +653,243 @@ Wire Wire Line
 	4350 7100 4400 7100
 Text Label 4400 7100 0    60   ~ 0
 PROG
+Wire Wire Line
+	2300 4000 1950 4000
+Wire Wire Line
+	4800 4000 5000 4000
+Wire Wire Line
+	4800 3800 5000 3800
+Text Label 5000 3800 0    60   ~ 0
+BNC_A
+Wire Wire Line
+	4800 3900 5000 3900
+Text Label 5000 3900 0    60   ~ 0
+BNC_B
+$Comp
+L MODULAR_DEVICE_TEENSY_FEMALE MDT1
+U 1 1 576DE218
+P 8050 3050
+F 0 "MDT1" H 8050 4047 60  0000 C CNN
+F 1 "MODULAR_DEVICE_TEENSY_FEMALE" H 8050 3941 60  0000 C CNN
+F 2 "footprints:MODULAR_DEVICE_TEENSY_FEMALE" H 8050 4100 60  0001 C CNN
+F 3 "" H 8100 5800 60  0000 C CNN
+F 4 "digikey" H 8050 4200 60  0001 C CNN "Vendor"
+F 5 "S7049-ND" H 8050 4300 60  0001 C CNN "PartNumber"
+F 6 "16 Position Header Through Hole" H 8050 4400 60  0001 C CNN "Description"
+	1    8050 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2500 6500 2500
+Wire Wire Line
+	6800 2600 6500 2600
+Wire Wire Line
+	6800 2700 6500 2700
+Wire Wire Line
+	6800 2800 6500 2800
+Wire Wire Line
+	6800 2900 6500 2900
+Wire Wire Line
+	6800 3000 6500 3000
+Wire Wire Line
+	6800 3100 6500 3100
+Wire Wire Line
+	6800 3200 6500 3200
+Wire Wire Line
+	6800 3300 6500 3300
+Wire Wire Line
+	6800 3400 6500 3400
+Wire Wire Line
+	6800 3500 6500 3500
+Wire Wire Line
+	6800 3600 6500 3600
+Wire Wire Line
+	6800 3700 6500 3700
+Wire Wire Line
+	6800 3800 6500 3800
+Wire Wire Line
+	9300 2700 9500 2700
+Wire Wire Line
+	9300 2800 9500 2800
+Wire Wire Line
+	9300 2900 9500 2900
+Wire Wire Line
+	9300 3000 9500 3000
+Wire Wire Line
+	9300 3100 9500 3100
+Wire Wire Line
+	9300 3200 9500 3200
+Wire Wire Line
+	9300 3300 9500 3300
+Wire Wire Line
+	9300 3400 9500 3400
+Wire Wire Line
+	9300 3500 9500 3500
+Wire Wire Line
+	9300 3600 9500 3600
+Wire Wire Line
+	9300 3700 9500 3700
+Wire Wire Line
+	9300 3800 9500 3800
+Wire Wire Line
+	2300 2400 1950 2400
+Text Label 1950 2400 0    60   ~ 0
+D2
+Wire Wire Line
+	2300 2500 1950 2500
+Text Label 1950 2500 0    60   ~ 0
+D3
+Text Label 6500 2700 0    60   ~ 0
+D2
+Text Label 6500 2800 0    60   ~ 0
+D3
+Wire Wire Line
+	2300 2600 1950 2600
+Text Label 1950 2600 0    60   ~ 0
+D4
+Wire Wire Line
+	2300 2700 1950 2700
+Text Label 1950 2700 0    60   ~ 0
+D5
+Wire Wire Line
+	2300 2800 1950 2800
+Text Label 1950 2800 0    60   ~ 0
+D6
+Text Label 6500 2900 0    60   ~ 0
+D4
+Text Label 6500 3000 0    60   ~ 0
+D5
+Text Label 6500 3100 0    60   ~ 0
+D6
+Wire Wire Line
+	2300 3100 1950 3100
+Text Label 1950 3100 0    60   ~ 0
+D9
+Wire Wire Line
+	2300 3200 1950 3200
+Text Label 1950 3200 0    60   ~ 0
+D10
+Wire Wire Line
+	2300 3300 1950 3300
+Text Label 1950 3300 0    60   ~ 0
+D11
+Wire Wire Line
+	2300 3400 1950 3400
+Text Label 1950 3400 0    60   ~ 0
+D12
+Text Label 6500 3400 0    60   ~ 0
+D9
+Text Label 6500 3500 0    60   ~ 0
+D10
+Text Label 6500 3600 0    60   ~ 0
+D11
+Text Label 6500 3700 0    60   ~ 0
+D12
+NoConn ~ 2300 3600
+NoConn ~ 2300 3700
+NoConn ~ 2300 4100
+NoConn ~ 4800 3700
+NoConn ~ 4800 3600
+Wire Wire Line
+	2300 3800 1950 3800
+Wire Wire Line
+	2300 3900 1950 3900
+Wire Wire Line
+	2300 4200 1950 4200
+Text Label 1950 3800 0    60   ~ 0
+D24
+Text Label 1950 3900 0    60   ~ 0
+D25
+Text Label 1950 4200 0    60   ~ 0
+D28
+Wire Wire Line
+	4800 4200 5000 4200
+Wire Wire Line
+	4800 4100 5000 4100
+Text Label 5000 4200 0    60   ~ 0
+D29
+Text Label 5000 4100 0    60   ~ 0
+D30
+Wire Wire Line
+	4800 3500 5000 3500
+Wire Wire Line
+	4800 3400 5000 3400
+Wire Wire Line
+	4800 3300 5000 3300
+Wire Wire Line
+	4800 3200 5000 3200
+Wire Wire Line
+	4800 3100 5000 3100
+Wire Wire Line
+	4800 3000 5000 3000
+Wire Wire Line
+	4800 2900 5000 2900
+Wire Wire Line
+	4800 2800 5000 2800
+Wire Wire Line
+	4800 2700 5000 2700
+Wire Wire Line
+	4800 2600 5000 2600
+Wire Wire Line
+	4800 2500 5000 2500
+Wire Wire Line
+	4800 2400 5000 2400
+Text Label 5000 2400 0    60   ~ 0
+D23
+Text Label 5000 2500 0    60   ~ 0
+D22
+Text Label 5000 2600 0    60   ~ 0
+D21
+Text Label 5000 2700 0    60   ~ 0
+D20
+Text Label 5000 2800 0    60   ~ 0
+D19
+Text Label 5000 2900 0    60   ~ 0
+D18
+Text Label 5000 3000 0    60   ~ 0
+D17
+Text Label 5000 3100 0    60   ~ 0
+D16
+Text Label 5000 3200 0    60   ~ 0
+D15
+Text Label 5000 3300 0    60   ~ 0
+D14
+Text Label 5000 3400 0    60   ~ 0
+D13
+Text Label 5000 3500 0    60   ~ 0
+DAC
+Text Label 6500 2500 0    60   ~ 0
+D24
+Text Label 6500 2600 0    60   ~ 0
+D25
+Text Label 6500 3200 0    60   ~ 0
+D30
+Text Label 6500 3300 0    60   ~ 0
+D29
+Text Label 6500 3800 0    60   ~ 0
+D28
+Text Label 9500 2700 0    60   ~ 0
+D23
+Text Label 9500 2800 0    60   ~ 0
+D22
+Text Label 9500 2900 0    60   ~ 0
+D21
+Text Label 9500 3000 0    60   ~ 0
+D20
+Text Label 9500 3100 0    60   ~ 0
+D19
+Text Label 9500 3200 0    60   ~ 0
+D18
+Text Label 9500 3300 0    60   ~ 0
+D17
+Text Label 9500 3400 0    60   ~ 0
+D16
+Text Label 9500 3500 0    60   ~ 0
+D15
+Text Label 9500 3600 0    60   ~ 0
+D14
+Text Label 9500 3700 0    60   ~ 0
+D13
+Text Label 9500 3800 0    60   ~ 0
+DAC
 $EndSCHEMATC
