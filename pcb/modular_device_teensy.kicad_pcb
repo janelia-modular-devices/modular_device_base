@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201606271447+6949~45~ubuntu16.04.1-product)
+(kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201607140318+6977~46~ubuntu16.04.1-product)
 
   (general
     (links 58)
     (no_connects 58)
-    (area 34.992381 67.52998 140.850686 145.6975)
+    (area 34.992381 67.52998 176.097857 145.6975)
     (thickness 1.6)
     (drawings 8)
     (tracks 0)
@@ -429,7 +429,7 @@
     (fp_text reference REG1 (at 0 -7.62 270) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (fp_text value CONV_DC_DC_5V_1A (at 6.858 -2.286 360) (layer F.SilkS) hide
+    (fp_text value CONV_DC_DC_5V_1A (at 6.858 -2.286) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
     (fp_line (start 5.715 1.905) (end 5.715 -6.35) (layer F.SilkS) (width 0.381))
@@ -692,7 +692,7 @@
   )
 
   (module modular_device_teensy:MNT_HOLE (layer F.Cu) (tedit 57728064) (tstamp 57728F38)
-    (at 163.83 106.68)
+    (at 116.84 99.695)
     (fp_text reference REF** (at 0 0.75) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
@@ -739,10 +739,10 @@
     (pad "" thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module modular_device_teensy:TEENSY_3 (layer B.Cu) (tedit 576C1EBB) (tstamp 5751D20D)
+  (module modular_device_teensy:TEENSY_3 (layer B.Cu) (tedit 5787AD33) (tstamp 5751D20D)
     (at 95.25 99.695 270)
     (path /5751BC55)
-    (fp_text reference TEENSY1 (at 0 -19.05 270) (layer B.SilkS)
+    (fp_text reference TEENSY1 (at 0 20.32 270) (layer B.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.254)) (justify mirror))
     )
     (fp_text value TEENSY_3_2 (at 0 16.5 270) (layer B.SilkS)
