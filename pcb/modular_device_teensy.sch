@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:components
 LIBS:modular_device_teensy
+LIBS:modular_device_teensy-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
@@ -37,7 +38,7 @@ encoding utf-8
 Sheet 1 1
 Title "modular_device_teensy"
 Date ""
-Rev "1.0"
+Rev "1.1"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""
@@ -1115,16 +1116,16 @@ Wire Wire Line
 Wire Wire Line
 	7050 5150 7050 5200
 $Comp
-L MODULAR_DEVICE_TEENSY MDT1
-U 1 1 578D0E11
+L MODULAR_DEVICE_TEENSY_FEMALE MDT1
+U 1 1 578F97D8
 P 8050 3050
 F 0 "MDT1" H 8050 4047 60  0000 C CNN
-F 1 "MODULAR_DEVICE_TEENSY" H 8050 3941 60  0000 C CNN
+F 1 "MODULAR_DEVICE_TEENSY_FEMALE" H 8050 3941 60  0000 C CNN
 F 2 "modular_device_teensy:MODULAR_DEVICE_TEENSY" H 8050 4100 60  0001 C CNN
 F 3 "" H 8100 5800 60  0000 C CNN
 F 4 "digikey" H 8050 4200 60  0001 C CNN "Vendor"
 F 5 "S7049-ND" H 8050 4300 60  0001 C CNN "PartNumber"
-F 6 "16 Position Header Through Hole" H 8050 4400 60  0001 C CNN "Description"
+F 6 "16 Position Header Through Hole Female Socket" H 8050 4400 60  0001 C CNN "Description"
 F 7 "2" H 9350 4300 60  0001 C CNN "PartCount"
 	1    8050 3050
 	1    0    0    -1  
