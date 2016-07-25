@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/modular-devices/modular_device_teensy/pcb/modular_device_teensy.sch</source>
-    <date>Fri 22 Jul 2016 05:24:11 PM EDT</date>
-    <tool>Eeschema 4.1.0-alpha+201607210716+6990~46~ubuntu16.04.1-product</tool>
+    <date>Mon 25 Jul 2016 04:55:51 PM EDT</date>
+    <tool>Eeschema 4.1.0-alpha+201607250105+6992~46~ubuntu16.04.1-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>modular_device_teensy</title>
@@ -265,36 +265,36 @@
       <footprint>modular_device_teensy:MOUNTING_HOLE_4-40</footprint>
       <fields>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">36-3480-ND</field>
-        <field name="Description">Round Standoff Threaded 4-40 Aluminum 0.500in</field>
+        <field name="PartNumber">36-2027-ND</field>
+        <field name="Description">Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in</field>
       </fields>
       <libsource lib="modular_device_teensy" part="MNT_HOLE"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>57928CA5</tstamp>
+      <tstamp>57967F84</tstamp>
     </comp>
     <comp ref="MH2">
       <value>MNT_HOLE</value>
       <footprint>modular_device_teensy:MOUNTING_HOLE_4-40</footprint>
       <fields>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">36-3480-ND</field>
-        <field name="Description">Round Standoff Threaded 4-40 Aluminum 0.500in</field>
+        <field name="PartNumber">36-2027-ND</field>
+        <field name="Description">Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in</field>
       </fields>
       <libsource lib="modular_device_teensy" part="MNT_HOLE"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>57928DFF</tstamp>
+      <tstamp>57968003</tstamp>
     </comp>
     <comp ref="MH3">
       <value>MNT_HOLE</value>
       <footprint>modular_device_teensy:MOUNTING_HOLE_4-40</footprint>
       <fields>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">36-3480-ND</field>
-        <field name="Description">Round Standoff Threaded 4-40 Aluminum 0.500in</field>
+        <field name="PartNumber">36-2027-ND</field>
+        <field name="Description">Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in</field>
       </fields>
       <libsource lib="modular_device_teensy" part="MNT_HOLE"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>57928E5B</tstamp>
+      <tstamp>5796805F</tstamp>
     </comp>
   </components>
   <libparts>
@@ -423,8 +423,8 @@
         <field name="Value">MNT_HOLE</field>
         <field name="Footprint">modular_device_teensy:MOUNTING_HOLE_4-40</field>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">36-3480-ND</field>
-        <field name="Description">Round Standoff Threaded 4-40 Aluminum 0.500in</field>
+        <field name="PartNumber">36-2027-ND</field>
+        <field name="Description">Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in</field>
       </fields>
       <pins>
         <pin num="1" name="P1" type="passive"/>

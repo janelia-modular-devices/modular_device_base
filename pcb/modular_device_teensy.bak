@@ -1130,4 +1130,49 @@ F 7 "2" H 9350 4300 60  0001 C CNN "PartCount"
 	1    8050 3050
 	1    0    0    -1  
 $EndComp
+$Comp
+L MNT_HOLE MH1
+U 1 1 57928CA5
+P 8900 4700
+F 0 "MH1" H 8977 4741 50  0000 L CNN
+F 1 "MNT_HOLE" H 8977 4650 50  0000 L CNN
+F 2 "modular_device_teensy:MOUNTING_HOLE_4-40" H 8800 4700 50  0001 C CNN
+F 3 "" H 8900 4700 50  0000 C CNN
+F 4 "digikey" H 9000 4900 60  0001 C CNN "Vendor"
+F 5 "36-3480-ND" H 9100 5000 60  0001 C CNN "PartNumber"
+F 6 "Round Standoff Threaded 4-40 Aluminum 0.500in" H 9200 5100 60  0001 C CNN "Description"
+	1    8900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MNT_HOLE MH2
+U 1 1 57928DFF
+P 8900 4900
+F 0 "MH2" H 8977 4941 50  0000 L CNN
+F 1 "MNT_HOLE" H 8977 4850 50  0000 L CNN
+F 2 "modular_device_teensy:MOUNTING_HOLE_4-40" H 8800 4900 50  0001 C CNN
+F 3 "" H 8900 4900 50  0000 C CNN
+F 4 "digikey" H 9000 5100 60  0001 C CNN "Vendor"
+F 5 "36-3480-ND" H 9100 5200 60  0001 C CNN "PartNumber"
+F 6 "Round Standoff Threaded 4-40 Aluminum 0.500in" H 9200 5300 60  0001 C CNN "Description"
+	1    8900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MNT_HOLE MH3
+U 1 1 57928E5B
+P 8900 5100
+F 0 "MH3" H 8977 5141 50  0000 L CNN
+F 1 "MNT_HOLE" H 8977 5050 50  0000 L CNN
+F 2 "modular_device_teensy:MOUNTING_HOLE_4-40" H 8800 5100 50  0001 C CNN
+F 3 "" H 8900 5100 50  0000 C CNN
+F 4 "digikey" H 9000 5300 60  0001 C CNN "Vendor"
+F 5 "36-3480-ND" H 9100 5400 60  0001 C CNN "PartNumber"
+F 6 "Round Standoff Threaded 4-40 Aluminum 0.500in" H 9200 5500 60  0001 C CNN "Description"
+	1    8900 5100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8700 4700
+NoConn ~ 8700 4900
+NoConn ~ 8700 5100
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201607210716+6990~46~ubuntu16.04.1-product)
+(kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201607250105+6992~46~ubuntu16.04.1-product)
 
   (general
     (links 73)
@@ -897,7 +897,7 @@
     (tags "DO-214BA diode")
     (path /57640DFA)
     (attr smd)
-    (fp_text reference D2 (at 4.445 0 540) (layer B.SilkS)
+    (fp_text reference D2 (at 4.445 0 180) (layer B.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.254)) (justify mirror))
     )
     (fp_text value diode_schottky_15V_1A (at 0 -3 270) (layer B.SilkS) hide
@@ -925,44 +925,44 @@
       (net 11 VEE))
   )
 
-  (module modular_device_teensy:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 5792902E) (tstamp 57928F84)
-    (at 116.84 99.695)
-    (path /57928E5B)
-    (fp_text reference MH3 (at 0 -3.175) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value MNT_HOLE (at 0 3.81) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_circle (center 0 0) (end 3.0607 0) (layer B.SilkS) (width 0.2286))
-    (fp_circle (center 0 0) (end 2.54 0) (layer F.SilkS) (width 0.2286))
-    (pad 1 thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module modular_device_teensy:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 5792902E) (tstamp 57928F7D)
-    (at 62.23 117.475)
-    (path /57928DFF)
-    (fp_text reference MH2 (at 0 -3.175) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value MNT_HOLE (at 0 3.81) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_circle (center 0 0) (end 3.0607 0) (layer B.SilkS) (width 0.2286))
-    (fp_circle (center 0 0) (end 2.54 0) (layer F.SilkS) (width 0.2286))
-    (pad 1 thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module modular_device_teensy:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 5792902E) (tstamp 57928F76)
+  (module modular_device_teensy:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 57967D2A) (tstamp 57928F76)
     (at 62.23 81.915)
-    (path /57928CA5)
+    (path /57967F84)
     (fp_text reference MH1 (at 0 -3.175) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_text value MNT_HOLE (at 0 3.81) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_circle (center 0 0) (end 3.0607 0) (layer B.SilkS) (width 0.2286))
+    (fp_circle (center 0 0) (end 2.2606 0) (layer B.SilkS) (width 0.2286))
+    (fp_circle (center 0 0) (end 2.54 0) (layer F.SilkS) (width 0.2286))
+    (pad 1 thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module modular_device_teensy:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 57967D2A) (tstamp 57928F7D)
+    (at 62.23 117.475)
+    (path /57968003)
+    (fp_text reference MH2 (at 0 -3.175) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_text value MNT_HOLE (at 0 3.81) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_circle (center 0 0) (end 2.2606 0) (layer B.SilkS) (width 0.2286))
+    (fp_circle (center 0 0) (end 2.54 0) (layer F.SilkS) (width 0.2286))
+    (pad 1 thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module modular_device_teensy:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 57967D2A) (tstamp 57928F84)
+    (at 116.84 99.695)
+    (path /5796805F)
+    (fp_text reference MH3 (at 0 -3.175) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_text value MNT_HOLE (at 0 3.81) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_circle (center 0 0) (end 2.2606 0) (layer B.SilkS) (width 0.2286))
     (fp_circle (center 0 0) (end 2.54 0) (layer F.SilkS) (width 0.2286))
     (pad 1 thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask F.SilkS))
   )
