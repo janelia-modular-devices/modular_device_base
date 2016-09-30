@@ -1,0 +1,3 @@
+[submodule "firmware/ModularDevice"]
+	path = firmware/ModularDevice
+	url = https://github.com/janelia-arduino/ModularDevice.git
