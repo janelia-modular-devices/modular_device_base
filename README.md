@@ -1,4 +1,4 @@
-#modular_device_teensy
+#modular_device_base
 
 Authors:
 
