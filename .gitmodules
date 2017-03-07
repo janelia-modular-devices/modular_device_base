@@ -4,3 +4,6 @@
 [submodule "firmware/ModularDeviceBase"]
 	path = firmware/ModularDeviceBase
 	url = https://github.com/janelia-arduino/ModularDeviceBase.git
+[submodule "hardware/modular_device_base_5x3"]
+	path = hardware/modular_device_base_5x3
+	url = https://github.com/janelia-kicad/modular_device_base_5x3.git
