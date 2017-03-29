@@ -1,4 +1,4 @@
-#modular_device_base
+# modular_device_base
 
 Authors:
 
@@ -8,7 +8,7 @@ License:
 
     BSD
 
-##More Detailed Help on Installation and Usage
+## More Detailed Help on Installation and Usage
 
 [modular-devices](https://github.com/janelia-modular-devices/modular-devices)
 
